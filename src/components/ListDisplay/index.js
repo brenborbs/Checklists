@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { Link } from 'react-router-dom';
 import ListDetail from "./listDetail";
 import PageTemplate from './pageTemplate';
 
@@ -34,12 +35,13 @@ class ListDisplay extends Component {
     return (
       <React.Fragment>
         <button onClick={this.exportPDF} className="button-pdf" >PDF download</button>
-        <PDFExport paperSize={'Letter'}
+        <Link to={`/editChecklist/${this.props.checklists.id}`} className="btn btn-success btn-lg">Edit</Link>
+        <PDFExport paperSize={'A4'}
             fileName="_____.pdf"
             pageTemplate={PageTemplate}
-            margin={0.5}
-            scale={0.9}
-            // keepTogether="p"
+            margin={0.8}
+            scale={0.8}
+            keepTogether="p"
             title=""
             subject=""
             keywords=""

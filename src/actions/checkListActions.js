@@ -1,6 +1,7 @@
 import { toastr } from 'react-redux-toastr';
 import {
   CREATE_CHECKLIST,
+  UPDATE_CHECKLIST,
   GET_CHECKLISTS
 } from '../types/checkListTypes';
 import { 
@@ -23,6 +24,22 @@ export const createChecklist = (checklist) => {
     } catch (error) {
       console.log(error)
       toastr.error('Oops', 'Something went wrong!')
+    }
+  }
+}
+
+export const updateChecklists = (checklists) => {
+  return async dispatch => {
+    try {
+      dispatch ({ type: UPDATE_CHECKLIST,
+         payload: {
+           checklists
+         } 
+      });
+      toastr.success('Success!', 'Checklist has been updated' )
+    } catch (error) {
+      console.log(error)
+      toastr.error('Opps', 'Something went wrong!')
     }
   }
 }

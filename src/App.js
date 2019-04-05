@@ -15,7 +15,7 @@ class App extends Component {
           <Route path='/' exact component={Display} />
           <Route path='/create' exact component={CheckListInput} />
           <Route path='/checklists/:id' exact component={ListDetail} />
-          
+          <Route path='/editChecklist/:id' exact component={CheckListInput} />
         </Switch>
         </Layout>
     );

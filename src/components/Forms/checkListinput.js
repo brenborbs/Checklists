@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { reduxForm, Field } from 'redux-form';
 import { combineValidators, composeValidators, isRequired, hasLengthGreaterThan } from 'revalidate';
 import cuid from 'cuid';
-import { createChecklist } from '../../actions/checkListActions';
+import { createChecklist, updateChecklists } from '../../actions/checkListActions';
 
 // import SelectInput from './select';
 import TextArea from './textArea';
@@ -25,25 +25,50 @@ const mapState = (state, ownProps) => {
 };
 
 const actions = {
-  createChecklist
+  createChecklist,
+  updateChecklists
 }
 
 const validate = combineValidators({
   commentsOne: composeValidators(
     isRequired({message: 'Please enter comments'}),
-    hasLengthGreaterThan(10)({message: 'Comment body must be at least more than 10 characters'})
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
   )(),
   commentsTwo: composeValidators(
     isRequired({message: 'Please enter comments'}),
-    hasLengthGreaterThan(10)({message: 'Comment body must be at least more than 10 characters'})
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
   )(),
   commentsThree: composeValidators(
     isRequired({message: 'Please enter comments'}),
-    hasLengthGreaterThan(10)({message: 'Comment body must be at least more than 10 characters'})
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 10 characters'})
   )(),
   commentsFour: composeValidators(
     isRequired({message: 'Please enter comments'}),
-    hasLengthGreaterThan(10)({message: 'Comment body must be at least more than 10 characters'})
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsFive: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsSix: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsSeven: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsEight: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsNine: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
+  )(),
+  commentsTen: composeValidators(
+    isRequired({message: 'Please enter comments'}),
+    hasLengthGreaterThan(5)({message: 'Comment body must be at least more than 5 characters'})
   )(),
 })
 
@@ -51,8 +76,9 @@ const validate = combineValidators({
 
   onFormSubmit = values => {
 
+    // not working!!! no errors!!
     if (this.props.initialValues.id) {
-      // this.props.updateChecklist(values);
+      this.props.updateChecklists(values);
       this.props.history.goBack();
     } else {
       const newChecklist = {
@@ -142,6 +168,132 @@ const validate = combineValidators({
                           component={TextArea}
                           placeholder="Comments Here..."
                           />
+
+                          <label>1.5 Previous docking report received and revised</label>
+                          <Field 
+                          name="replyFive"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsFive"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+
+                          <label>1.6 Project identification received and revised</label>
+                          <Field 
+                          name="replySix"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsSix"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+                        <hr />
+                        <div><p><strong>2. Pre-Planning</strong></p></div>
+                        
+                        <label>2.1 Paint Specification received</label>
+                          <Field 
+                          name="replySeven"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsSeven"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+
+                          <label>2.2 Personal equipment in good working order</label>
+                          <Field 
+                          name="replyEight"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsEight"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+
+                          <label>2.3 Checked with colleagues previous experiences and feedback</label>
+                          <Field 
+                          name="replyNine"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <label>2.3.1 Feedback obtained from Yard performance</label>
+                          <Field 
+                          name="replyTen"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <label>2.3.2 Feedback obtained from Maunufacturer CA performance</label>
+                          <Field 
+                          name="replyEleven"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <label>2.3.3 Feedback obtained from contractor</label>
+                          <Field 
+                          name="replyTwelve"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsNine"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+                          
+                          <label>2.4 Contacted Owner and local agent to arrange formalities</label>
+                          <Field 
+                          name="replyThirteen"
+                          component="select"
+                          >
+                          <option />
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                          </Field>
+                          <Field 
+                          name="commentsTen"
+                          type="text"
+                          component={TextArea}
+                          placeholder="Comments Here..."
+                          />
+
 
                         <button 
                         disabled={invalid || submitting || pristine }

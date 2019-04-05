@@ -17,7 +17,7 @@ body {
   width: 80%;
   border: 3px solid #ccc;
   padding: 20px;
-  margin-top: 5em;
+  margin-top: 2em;
   margin-bottom: 5em;
 }
 .inside_form label {
@@ -39,9 +39,11 @@ body {
   color: red;
 }
 .button-pdf {
-  margin-top: 1em;
+  margin-right: 10px;
+  margin-top: 2.5em;
   margin-left: 10em;
   color: blue;
+  padding: 5px 8px 5px 8px;
 }
 .button-pdf:hover {
   color: green;

@@ -9,19 +9,24 @@ const sampleData = {
       replyThree: "yes",
       commentsThree: 'Paint manufacturer was not cooperative',
       replyFour: 'no',
-      commentsFour: 'Paint Specification was created on last minute.'
+      commentsFour: 'Paint Specification was created on last minute.',
+      replyFive: 'yes',
+      commentsFive: 'No comments. Project went well without paint specification',
+      replySix: 'yes',
+      commentsSix: 'No comments. Project went well without paint specification',
+      replySeven: 'yes',
+      commentsSeven: 'No comments. Project went well without paint specification',
+      replyEight: 'yes',
+      commentsEight: 'No comments. Project went well without paint specification',
+      replyNine: 'yes',
+      replyTen: 'no',
+      replyEleven: 'yes',
+      replyTwelve: 'no',
+      commentsNine: 'No comments. Project went well without paint specification',
+      replyThirteen: 'no',
+      commentsTen: 'The shipyard provided no contact'
     },
-    {
-      id:'1',
-      replyOne: "no",
-      commentsOne: "Uncooperative shipyard.",
-      replyTwo: "yes",
-      commentsTwo: "Paint maker not provided paint specification.",
-      replyThree: "yes",
-      commentsThree: 'Paint manufacturer was not cooperative',
-      replyFour: 'no',
-      commentsFour: 'Paint Specification was created on last minute.'
-    },
+    
     
   ]
 };
