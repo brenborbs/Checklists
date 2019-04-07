@@ -8,7 +8,7 @@ import CheckListDetail from './listMap';
     const { checklists } = this.props;
     return (
       <div className="center_wrapper" >
-        <h5 className="center-title">Checklists</h5>
+        <h2 className="center-title">All Checklists</h2>
         
         
         <CheckListDetail 

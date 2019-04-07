@@ -36,34 +36,36 @@ class ListDisplay extends Component {
       <React.Fragment>
         <button onClick={this.exportPDF} className="button-pdf" >PDF download</button>
         <Link to={`/editChecklist/${this.props.checklists.id}`} className="btn btn-success btn-lg">Edit</Link>
-        <PDFExport paperSize={'A4'}
+        <PDFExport 
+            paperSize="A4"
             fileName="_____.pdf"
             pageTemplate={PageTemplate}
-            margin={0.8}
-            scale={0.8}
-            keepTogether="p"
+            margin="0.5cm"
+            scale={0.6}
+            keepTogether="div"
             title=""
             subject=""
-            keywords=""
+            keywords=""  
             ref={(r) => this.report = r}>
                 <div 
                     // style={{
-                    //     height: 792,
-                    //     width: 1020,
+                    //     height: 1800,
+                    //     width: 1110,
                     //     padding: 'none',
                     //     backgroundColor: 'white',
                     //     boxShadow: '5px 5px 5px black',
                     //     margin: 'auto',
                     //     overflowX: 'hidden',
-                    //     overflowY: 'hidden'}} 
-                        >
+                    //     overflowY: 'hidden'
+                    //   }} 
+                    >
                 <div className="center_container">
-                  <div className="inside_wrapper">
+                  {/* <div className="inside_wrapper"> */}
                     <h3 className="container-title">Checklist for Drydockings</h3>
                     <ListDetail 
                     checklists={this.props.checklists} 
                     />
-                  </div>
+                  {/* </div> */}
                 </div>
               </div>
           </PDFExport>

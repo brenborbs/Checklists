@@ -4,6 +4,9 @@ body {
   /* background-color: rgb(234, 234, 234) !important; */
   font-family: 'Roboto Mono', monospace;
 }
+.navbar-nav button {
+  text-align: center;
+}
 .center_wrapper {
   margin: auto;
   width: 60%;
@@ -12,10 +15,13 @@ body {
   margin-top: 5em;
   margin-bottom: 5em;
 }
+.inside_wrapper {
+  margin-bottom: 10px;
+}
 .center_container {
   margin: auto;
   width: 80%;
-  border: 3px solid #ccc;
+  border: 2px solid #ccc;
   padding: 20px;
   margin-top: 2em;
   margin-bottom: 5em;
@@ -28,10 +34,19 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.question p, .question_comments {
+.question p {
   color: red;
+  display: inline;
+  text-transform: uppercase;
 }
-
+.question_comments p {
+  color: red;
+  display: inline;
+  padding-left: 5px;
+}
+.button_wrap {
+  margin-top: 2em;
+}
 .nav-link {
   color: white;
 }
