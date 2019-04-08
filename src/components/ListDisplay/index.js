@@ -40,8 +40,8 @@ class ListDisplay extends Component {
             paperSize="A4"
             fileName="_____.pdf"
             pageTemplate={PageTemplate}
-            margin="0.5cm"
-            scale={0.6}
+            margin="0.6cm"
+            scale={0.65}
             keepTogether="div"
             title=""
             subject=""

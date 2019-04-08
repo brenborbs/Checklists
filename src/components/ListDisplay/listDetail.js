@@ -113,7 +113,7 @@ const listDetail = ({ checklists }) => { // checklist undefined!!
 
                 <div className="question">3.1.6 Hand guns used: Meetings <strong><p>{checklists.replyTwentyOne}</p></strong></div>
 
-                <div className="question">3.1.7 Requirement of extra time and use of cherry pcikers for DFT readings: <strong><p>{checklists.replyTwentyTwo}</p></strong></div>
+                <div className="question">3.1.7 Reqts. of extra time and use of cherry pickers for DFT readings: <strong><p>{checklists.replyTwentyTwo}</p></strong></div>
 
                 <div className="question">3.1.8 Our recommendations to be strictly followed: <strong><p>{checklists.replyTwentyThree}</p></strong></div>
 
@@ -271,8 +271,138 @@ const listDetail = ({ checklists }) => { // checklist undefined!!
                     </div>
                     <div className="question">6.1.3 WFT measurements done during painting operation: <strong><p>{checklists.replyEightySix}</p></strong>
                     </div>
-
-
+                    <div className="question">6.1.4 Pot man mixing and thinning trained: <strong><p>{checklists.replyEightySeven}</p></strong>
+                    </div>
+                    <div className="question">6.1.5 Instructions followed during spray painting: <strong><p>{checklists.replyEightyEight}</p></strong>
+                    </div>
+                    <div className="question">6.1.6 Good distance from surface to coat checked: <strong><p>{checklists.replyEightyNine}</p></strong>
+                    </div>
+                    <div className="question">6.1.7 Good angle technique checked during spray painting: <strong><p>{checklists.replyNinety}</p></strong>
+                    </div>
+                    <div className="question">6.1.8 Shipyard Quality Control present during spray painting: <strong><p>{checklists.replyNinetyOne}</p></strong>
+                    </div>
+                    <div className="question">6.1.9 Paint foreman present during spray painting: <strong><p>{checklists.replyNinetyTwo}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwenty}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">6.2.0 Paint consumption within reasonable quantities: <strong><p>{checklists.replyNinetyThree}</p></strong>
+                    </div>
+                    <div className="question">6.2.1 Paint distribution to each pump accordingly to the area of application: <strong><p>{checklists.replyNinetyFour}</p></strong>
+                    </div>
+                    <div className="question">6.2.2 Paint re-application done after initial checking: <strong><p>{checklists.replyNinetyFive}</p></strong>
+                    </div>
+                    <div className="question">6.2.3 Anticorrosive DFT reached as per specification: <strong><p>{checklists.replyNinetySix}</p></strong>
+                    </div>
+                    <div className="question">6.2.4 Overcoating intervals followed during spray painting: <strong><p>{checklists.replyNinetySeven}</p></strong>
+                    </div>
+                    <div className="question">6.2.5 Surface dust free between coats checked: <strong><p>{checklists.replyNinetyEight}</p></strong>
+                    </div>
+                    <div className="question">6.2.6 Microclimate condition acceptable during spray painting: <strong><p>{checklists.replyNinetyNine}</p></strong>
+                    </div>
+                    <div className="question">6.2.7 Rain observed during spray painting: <strong><p>{checklists.replyHundred}</p></strong>
+                    </div>
+                    <div className="question">6.2.8 Wind speed within the acceptable limits during paint application: <strong><p>{checklists.replyHundredOne}</p></strong>
+                    </div>
+                    <div className="question">6.2.9 Paint consumption controlled during paint application: <strong><p>{checklists.replyHundredTwo}</p></strong>
+                    </div>
+                    <div className="question">6.3.0 All drums well consumed during paint application: <strong><p>{checklists.replyHundredThree}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyOne}</strong></p>
+                    </div>
+                    </div>
+                    <hr/>
+                    <p><strong style={{ color: 'black' }} >7. Painting Manufacturer</strong></p>
+                    <div className="question">7.0.1 Paint quantities delivered as specification: <strong><p>{checklists.replyHundredFour}</p></strong>
+                    </div>
+                    <div className="question">7.0.2 Delivery checked by JMC and manufacturer together: <strong><p>{checklists.replyHundredFive}</p></strong>
+                    </div>
+                    <div className="question">7.0.3 Obtained a copy of delivery tickets: <strong><p>{checklists.replyHundredSix}</p></strong>
+                    </div>
+                    <div className="question">7.0.4 Paints safely stored On-Site by yard/paint manufacturer: <strong><p>{checklists.replyHundredSeven}</p></strong>
+                    </div>
+                    <div className="question">7.0.5 Batch number on paints recorded and checked: <strong><p>{checklists.replyHundredEight}</p></strong>
+                    </div>
+                    <div className="question">7.0.6 Extra paint ordered by paint manufacturer: <strong><p>{checklists.replyHundredNine}</p></strong>
+                    </div>
+                    <div className="question">7.0.7 Paint distributed adequately by paint manufacturer: <strong><p>{checklists.replyHundredTen}</p></strong>
+                    </div>
+                    <div className="question">7.0.8 Mixing and thinning done correctly during spray painting: <strong><p>{checklists.replyHundredEleven}</p></strong>
+                    </div>
+                    <div className="question">7.0.9 Un-used paints returned and recorded after spray painting: <strong><p>{checklists.replyHundredTwelve}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyTwo}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">7.1.0 Manufacturer CA available during painting operation: <strong><p>{checklists.replyHundredThirteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.1 Paint maker present during kick-off meeting: <strong><p>{checklists.replyHundredFourteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.2 Paint maker present during in-docking evaluation: <strong><p>{checklists.replyHundredFifteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.3 Paint maker present during blasting operations: <strong><p>{checklists.replyHundredSixteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.4 Chloride test done by Paint maker: <strong><p>{checklists.replyHundredSeventeen}</p></strong>
+                    </div>
+                    <div className="question">7.1.5 Profile test done by Paint maker: <strong><p>{checklists.replyHundredEighteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.6 Dust test done by Paint maker: <strong><p>{checklists.replyHundredNineteen}</p></strong>
+                    </div>
+                    <div className="question">7.1.7 Paint maker present during paint application: <strong><p>{checklists.replyHundredTwenty}</p></strong>
+                    </div>
+                    <div className="question">7.1.8 Did Paint maker revised the equipment during paint application?: <strong><p>{checklists.replyHundredTwentyOne}</p></strong>
+                    </div>
+                    <div className="question">7.1.9 Microclimate readings taken by Paint maker?: <strong><p>{checklists.replyHundredTwentyTwo}</p></strong>
+                    </div>
+                    <div className="question">7.2.0 Wet Film Thickness readings taken by Paint maker?: <strong><p>{checklists.replyHundredTwentyThree}</p></strong>
+                    </div>
+                    <div className="question">7.2.1 Instructions given to the sprayers and Pot man?: <strong><p>{checklists.replyHundredTwentyFour}</p></strong>
+                    </div>
+                    <div className="question">7.2.2 DFT reading done by Paint maker after each coating: <strong><p>{checklists.replyHundredTwentyFive}</p></strong>
+                    </div>
+                    <div className="question">7.2.3 Distribution of paints by Paint maker before painting application: <strong><p>{checklists.replyHundredTwentySix}</p></strong>
+                    </div>
+                    <div className="question">7.2.4 Corrected bad spraying techniques by Paint maker: <strong><p>{checklists.replyHundredTwentySeven}</p></strong>
+                    </div>
+                    <div className="question">7.2.5 Controlled paint quantities by Paint maker: <strong><p>{checklists.replyHundredTwentyEight}</p></strong>
+                    </div>
+                    <div className="question">7.2.6 Was Paint maker available throughout the project?: <strong><p>{checklists.replyHundredTwentyNine}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyThree}</strong></p>
+                    </div>
+                    </div>
+                    <hr/>
+                    <p><strong style={{ color: 'black' }} >8. Reporting and Inspections</strong></p>
+                    <div className="question">8.0.1 Daily report sent at the end of each working day: <strong><p>{checklists.replyHundredThirty}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyFour}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">8.0.2 Water Ballast Tanks inspected during this time around?: <strong><p>{checklists.replyHundredThirtyOne}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyFive}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">8.0.3 Cargo Tanks inspected during this time around?: <strong><p>{checklists.replyHundredThirtyTwo}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentySix}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">8.0.4 General Exteriors inspected during this time around?: <strong><p>{checklists.replyHundredThirtyThree}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentySeven}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">8.0.5 Paint Locker inspected during this time around?: <strong><p>{checklists.replyHundredThirtyFour}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyEight}</strong></p>
+                    </div>
+                    </div>
+                    <div className="question">8.0.6 Audit of the on-board paint maintenance processes: <strong><p>{checklists.replyHundredThirtyFive}</p></strong>
+                            <div className="question_comments">Comments:
+                              <p><strong>{checklists.commentsTwentyNine}</strong></p>
+                    </div>
+                    </div>
 
 
             </div>

@@ -153,6 +153,66 @@ const validate = combineValidators({
       message: "Comment body must be at least more than 5 characters"
     })
   )(),
+  commentsTwenty: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyOne: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyTwo: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyThree: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyFour: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyFive: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentySix: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentySeven: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyEight: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
+  commentsTwentyNine: composeValidators(
+    isRequired({ message: "Please enter comments" }),
+    hasLengthGreaterThan(5)({
+      message: "Comment body must be at least more than 5 characters"
+    })
+  )(),
 });
 
 class CheckListinput extends Component {
@@ -900,6 +960,373 @@ class CheckListinput extends Component {
                   <option value="Yes">Yes</option>
                   <option value="No">No</option>
                 </Field>
+                <label>6.1.4 Pot man mixing and thinning trained</label>
+                <Field name="replyEightySeven" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.1.5 Instructions followed during spray painting</label>
+                <Field name="replyEightyEight" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.1.6 Good distance from surface to coat checked</label>
+                <Field name="replyEightyNine" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.1.7 Good angle technique checked during spray painting</label>
+                <Field name="replyNinety" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.1.8 Shipyard Quality Control present during spray painting</label>
+                <Field name="replyNinetyOne" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.1.9 Paint Foreman present during spray painting</label>
+                <Field name="replyNinetyTwo" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwenty"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>6.2.0 Paint consumption within reasonable quantities</label>
+                <Field name="replyNinetyThree" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.1 Paint distributed to each pump accordingly the area of application</label>
+                <Field name="replyNinetyFour" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.2 Paint re-application done after initial checking</label>
+                <Field name="replyNinetyFive" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.3 Anticorrosive DFT reached as per specification</label>
+                <Field name="replyNinetySix" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.4 Overcoating intervals followed during spray painting</label>
+                <Field name="replyNinetySeven" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.5 Surface dust free between coats checked</label>
+                <Field name="replyNinetyEight" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.6 Microclimate condition acceptable during spray painting</label>
+                <Field name="replyNinetyNine" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.7 Rain observed during spray painting</label>
+                <Field name="replyHundred" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.8 Wind speed within the acceptable limits during paint application</label>
+                <Field name="replyHundredOne" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.2.9 Paint consumption controlled during paint application</label>
+                <Field name="replyHundredTwo" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>6.3.0 All drums well consumed during paint application</label>
+                <Field name="replyHundredThree" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyOne"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <hr/>
+                <div>
+                  <p>
+                    <strong>7. Painting Manufacturer</strong>
+                  </p>
+                </div>
+                <label>7.0.1 Paint quantities delivered as specification</label>
+                <Field name="replyHundredFour" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.2 Delivery checked by JMC and manufacturer together</label>
+                <Field name="replyHundredFive" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.3 Obtained a copy of delivery tickets</label>
+                <Field name="replyHundredSix" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.4 Paints are safely stored On-Site by yard/paint manufacturer</label>
+                <Field name="replyHundredSeven" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.5 Batch number on paints recorded and checked</label>
+                <Field name="replyHundredEight" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.6 Extra paint ordered by paint manufacturer</label>
+                <Field name="replyHundredNine" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.7 Paint distributed adequately by paint manufacturer</label>
+                <Field name="replyHundredTen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.8 Mixing and thinning done correctly during spray painting</label>
+                <Field name="replyHundredEleven" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.0.9 Un-used paints returned and recorded after spray painting</label>
+                <Field name="replyHundredTwelve" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyTwo"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>7.1.0 Manufacturer CA available during painting operation</label>
+                <Field name="replyHundredThirteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.1 Paint maker present during kick-off meeting</label>
+                <Field name="replyHundredFourteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.2 Paint maker present during In-docking evaluation</label>
+                <Field name="replyHundredFifteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.3 Paint maker present during blasting operations</label>
+                <Field name="replyHundredSixteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.4 Chloride test done by Paint maker during blasting operation</label>
+                <Field name="replyHundredSeventeen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.5 Profile test done by Paint maker</label>
+                <Field name="replyHundredEighteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.6 Dust test done by Paint maker during blasting operation</label>
+                <Field name="replyHundredNineteen" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.7 Paint maker present during paint application</label>
+                <Field name="replyHundredTwenty" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.8 Did Paint maker revised the equipment during paint application?</label>
+                <Field name="replyHundredTwentyOne" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.1.9 Microclimate readings taken by Paint maker?</label>
+                <Field name="replyHundredTwentyTwo" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.0 Wet Film Thickness readings taken by Paint maker?</label>
+                <Field name="replyHundredTwentyThree" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.1 Instructions given to the sprayers and Pot man?</label>
+                <Field name="replyHundredTwentyFour" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.2 DFT reading done by Paint maker after each coating</label>
+                <Field name="replyHundredTwentyFive" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.3 Distribution of paints by Paint maker before painting application</label>
+                <Field name="replyHundredTwentySix" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.4 Corrected bad spraying techniques by Paint maker</label>
+                <Field name="replyHundredTwentySeven" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.5 Controlled paint quantities by Paint maker</label>
+                <Field name="replyHundredTwentyEight" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <label>7.2.6 Was Paint maker available throughout the project?</label>
+                <Field name="replyHundredTwentyNine" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyThree"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <hr/>
+                <div>
+                  <p>
+                    <strong>8. Reporting and Inspections</strong>
+                  </p>
+                </div>
+                <label>8.0.1 Daily report sent at the end of each working day</label>
+                <Field name="replyHundredThirty" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyFour"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>8.0.2 Water Ballast Tanks inspected during this time around?</label>
+                <Field name="replyHundredThirtyOne" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyFive"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>8.0.3 Cargo Tanks inspected during this time around?</label>
+                <Field name="replyHundredThirtyTwo" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentySix"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>8.0.4 General Exteriors inspected during this time around?</label>
+                <Field name="replyHundredThirtyThree" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentySeven"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>8.0.5 Paint Locker inspected during this time around?</label>
+                <Field name="replyHundredThirtyFour" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyEight"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+                <label>8.0.6 Audit of the on-board paint maintenance processes</label>
+                <Field name="replyHundredThirtyFive" component="select">
+                  <option />
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </Field>
+                <Field
+                  name="commentsTwentyNine"
+                  type="text"
+                  component={TextArea}
+                  placeholder="Comments Here..."
+                />
+
 
 
 
