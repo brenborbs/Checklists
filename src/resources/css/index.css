@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(234, 234, 234) !important; */
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar-nav button {
+  text-align: center;
+}
+.center_wrapper {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #ccc;
+  padding: 20px;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.inside_wrapper {
+  margin-bottom: 10px;
+}
+.center_container {
+  margin: auto;
+  width: 80%;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.inside_form label {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.question {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.question p {
+  color: red;
+  display: inline;
+  text-transform: uppercase;
+}
+.question_comments p {
+  color: red;
+  display: inline;
+  padding-left: 5px;
+}
+.button_wrap {
+  margin-top: 2em;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: red;
+}
+.button-pdf {
+  margin-right: 10px;
+  margin-top: 2.5em;
+  margin-left: 10em;
+  color: blue;
+  padding: 5px 8px 5px 8px;
+}
+.button-pdf:hover {
+  color: green;
+}
+.center-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.center_wrapper p {
+  text-transform: uppercase;
+  display: inline;
+}
+.list_wrapper p {
+  text-transform: uppercase;
+  display: inline;
+}
+.container-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.display_wrapper p {
+  text-transform: uppercase;
+  display: inline;
+}
+.inside_form p, input {
+  display: inline;
+}
+.textarea_wrap {
+  margin-bottom: 15px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+ /* :root{
+  --light:#fff;
+ --dark:#181b24;
+ --grey:#899495;
+ --orange:#fc5130;
+ --SectionGrey:#f2f2f2;
+ --SectionWhite:#fff;
+ }
+ .nav{
+  background: var(--light);
+ }
+ .nav__header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5rem solid var(--dark);
+}
+.nav__btn{
+  font-size: 3rem;
+  align-self: center;
+  color: var(--grey)
+}
+.nav__links{
+  list-style-type: none;
+background: var(--grey)
+}
+.nav__single-link{
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-style: italic;
+  text-transform: capitalize;
+  color: var(--orange);
+  transition: all 1s linear;
+}
+.nav__single-link:hover{
+  background: var(--light);
+  padding-left: 1.5rem;
+  cursor: pointer;
+} 
+
+.nav__links{
+  height: 0;
+  overflow: hidden;
+  transition: all 2s linear;
+}
+.show__links{
+  height: 288px;
+}
+@media screen and (min-width:768px){
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 0.5rem solid var(--dark);
+  }
+  .nav__header{
+    border: none;
+  }
+  .nav__btn{
+    display: none;
+  }
+  .nav__links{
+    
+    background: transparent;
+    height: auto;
+    flex:1 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+  }
+  .nav__single-link{
+    background: transparent;
+    flex:1 0 100px;
+  }
+  .nav__single-link:hover{
+    padding-left: 1rem;
+    color: var(--dark)
+  }
+
+}
+
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+.ui.main.container,
+.main.segment {
+  margin-top: 7em;
+}
+
+.ui.center.aligned.segment.attendance-preview {
+  background-color: #f5f5f5;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.ui.menu .item>img:not(.ui) {
+  margin-right: 1.5em !important;
+}
+
+.ui.menu:not(.vertical) .item>.button {
+  margin-left: 0.5em;
+}
+
+.page_wrapper {
+  padding-top: 5em;
+}
+
+.page_container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 40em !important;
+  width: 820px;
+  margin: 0;
+  background-color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.title {
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  text-transform: uppercase;
+}
+.pre_title p {
+  text-align: center;
+  color: blue;
+}
+.item_spec {
+  padding: 8px 50px 8px 50px;
+}
+.item_spec p {
+  display: inline-block;
+  padding-left: 10px;
+}
+.ui.form .field {
+  display: inline-block;
+  padding-left: 8px;
+} */
