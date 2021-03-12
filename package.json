@@ -7,7 +7,7 @@
     "@progress/kendo-react-pdf": "2.3.1",
     "cuid": "^2.1.6",
     "html2canvas": "1.0.0-alpha.12",
-    "jspdf": "1.4.1",
+    "jspdf": "2.3.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
